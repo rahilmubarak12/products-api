@@ -12,8 +12,8 @@ public class PhysicalProduct extends Product {
     }
 
     public PhysicalProduct(Long id, String name, double price,
-                           double weightKg, String dimensions) {
-        super(id, name, price);   // MUST be the first statement
+            double weightKg, String dimensions) {
+        super(id, name, price); // MUST be the first statement
         this.weightKg = weightKg;
         this.dimensions = dimensions;
     }
